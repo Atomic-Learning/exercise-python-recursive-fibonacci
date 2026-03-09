@@ -1,0 +1,22 @@
+{
+    "title": "Exercise: Python Recursive Fibonacci Function",
+    "slug": "exercise-python-recursive-fibonacci",
+    "description": "Implement a recursive Python function that returns the nth Fibonacci number using correct base cases.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "exercise",
+        "python"
+    ],
+    "duration": 15,
+    "prerequisites": [
+        "programming-recursive-functions",
+        "python-conditionals-if-elif-else",
+        "python-arithmetic-operators"
+    ],
+    "related": [
+        "example-python-factorial-recursive",
+        "sample-solution-python-recursive-fibonacci"
+    ]
+}
