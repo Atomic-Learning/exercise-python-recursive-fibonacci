@@ -9,7 +9,7 @@
         "exercise",
         "python"
     ],
-    "duration": 15,
+    "duration": 10,
     "prerequisites": [
         "programming-recursive-functions",
         "python-conditionals-if-elif-else",
