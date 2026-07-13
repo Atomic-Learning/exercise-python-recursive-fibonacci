@@ -13,7 +13,8 @@
     "prerequisites": [
         "programming-recursive-functions",
         "python-conditionals-if-elif-else",
-        "python-arithmetic-operators"
+        "python-arithmetic-operators",
+        "python-lists-introduction"
     ],
     "related": [
         "example-python-factorial-recursive",
