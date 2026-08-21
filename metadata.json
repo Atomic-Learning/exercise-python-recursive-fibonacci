@@ -14,7 +14,8 @@
         "programming-recursive-functions",
         "python-conditionals-if-elif-else",
         "python-arithmetic-operators",
-        "python-lists-introduction"
+        "python-lists-introduction",
+        "maths-function-notation"
     ],
     "related": [
         "example-python-factorial-recursive",
