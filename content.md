@@ -4,7 +4,9 @@ Write a recursive function called `fibonacci`{.python} that takes one argument `
 Use the definition:
 
 $$
-F(0)=0,\quad F(1)=1,\quad F(n)=F(n-1)+F(n-2)\text{ for }n&gt;1
+F(0)=0\\
+F(1)=1\\
+F(n)=F(n-1)+F(n-2)\text{ for }n&gt;1
 $$
 
 You may assume that `n`{.python} is a non-negative integer.
