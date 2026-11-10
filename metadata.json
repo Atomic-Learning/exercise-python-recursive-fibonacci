@@ -18,7 +18,6 @@
         "maths-function-notation"
     ],
     "related": [
-        "example-python-factorial-recursive",
-        "sample-solution-python-recursive-fibonacci"
+        "example-python-factorial-recursive"
     ]
 }
