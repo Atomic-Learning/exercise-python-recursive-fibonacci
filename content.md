@@ -13,22 +13,17 @@ You may assume that `n`{.python} is a non-negative integer.
 
 # Reference values
 
-<table>
-  <thead>
-    <tr><th>n</th><th>F(n)</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>0</td><td>0</td></tr>
-    <tr><td>1</td><td>1</td></tr>
-    <tr><td>2</td><td>1</td></tr>
-    <tr><td>3</td><td>2</td></tr>
-    <tr><td>4</td><td>3</td></tr>
-    <tr><td>5</td><td>5</td></tr>
-    <tr><td>6</td><td>8</td></tr>
-    <tr><td>7</td><td>13</td></tr>
-    <tr><td>8</td><td>21</td></tr>
-  </tbody>
-</table>
+| $n$ | $F(n)$ |
+|---|------|
+| 0 | 0    |
+| 1 | 1    |
+| 2 | 1    |
+| 3 | 2    |
+| 4 | 3    |
+| 5 | 5    |
+| 6 | 8    |
+| 7 | 13   |
+| 8 | 21   |
 
 # Starter cell
 
@@ -48,7 +43,7 @@ Click below to reveal a sample solution.
 
 >[!HIDDEN]
 > 
-> We know that $F(0) = 0$ and $F(1) = 1$, so we can define both base cases. It happens that we can detect and treat these cases together to reduce the amount of code that must be written and executed each time the function is called. To do this, if `n`{.python} is less than `2`{.python}, we return <code class="language-python"></code>n</code>. If this `return`{.python} statement is not executed, we can call the function recursively and add together the results.
+> We know that $F(0) = 0$ and $F(1) = 1$, so we can define both base cases. It happens that we can detect and treat these cases together to reduce the amount of code that must be written and executed each time the function is called. To do this, if `n`{.python} is less than `2`{.python}, we return `n`{.python}. If this `return`{.python} statement is not executed, we can call the function recursively and add together the results.
 >
 > ```py-cell
 > def fibonacci(n):
